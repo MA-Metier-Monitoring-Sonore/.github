@@ -1,0 +1,42 @@
+cloud-architecture-diagram
+
+end-user [icon: user]
+
+DockerEngine [icon: aws-vpc] {
+  DockerNetwork-Backend {
+    reverse-proxy [icon: nginx]
+    frontend [icon: vue]
+    backend [icon: spring]
+    database [icon: timescale]
+    database-volume [icon: database]
+  }
+}
+
+Tailscale [icon: tailscale] {
+  vpn [icon: tailscale]
+}
+
+Raspberry-Mesh [icon: raspberry-pi] {
+  pi-broker [icon: raspberry-pi]
+  pi-node-1 [icon: raspberry-pi]
+  pi-node-2 [icon: raspberry-pi]
+}
+
+// relations
+
+end-user - 
+reverse-proxy: 443/tcp
+
+reverse-proxy - frontend : 3000
+reverse-proxy - backend : 8000
+
+backend - database : 5432
+
+database - database-volume
+
+backend - vpn : mqtt/1883
+
+vpn - pi-broker : mqtt/1883
+
+pi-node-1 - pi-broker : mqtt/1883
+pi-node-2 - pi-broker : mqtt/1883
