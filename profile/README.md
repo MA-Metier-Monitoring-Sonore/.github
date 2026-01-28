@@ -1,12 +1,14 @@
-## Hi there 👋
+<p><a target="_blank" href="https://app.eraser.io/workspace/CnNHglQXEFPmr7pfPj0v" id="edit-in-eraser-github-link"><img alt="Edit in Eraser" src="https://firebasestorage.googleapis.com/v0/b/second-petal-295822.appspot.com/o/images%2Fgithub%2FOpen%20in%20Eraser.svg?alt=media&amp;token=968381c8-a7e7-472a-8ed6-4a6626da5501"></a></p>
 
-<!--
+![Architecture Diagram](/.eraser/CnNHglQXEFPmr7pfPj0v___zhDAzyrHDQP96sHNXP2rIlDp7mB3___---diagram---ixUSX5sPB4fZ1x1occHwP---diagram---0fpnmpJ4o7feR4R4TQ672A.png "Architecture Diagram")
 
-**Here are some ideas to get you started:**
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+
+
+<!-- eraser-additional-content -->
+## Diagrams
+<!-- eraser-additional-files -->
+<a href="/profile/README-cloud-architecture-1.eraserdiagram" data-element-id="KlTRFNJIT3nnMsZucr-MR"><img src="/.eraser/CnNHglQXEFPmr7pfPj0v___zhDAzyrHDQP96sHNXP2rIlDp7mB3___---diagram----03f3c05d1fb98494023e1c672be3bdb3.png" alt="" data-element-id="KlTRFNJIT3nnMsZucr-MR" /></a>
+<!-- end-eraser-additional-files -->
+<!-- end-eraser-additional-content -->
+<!--- Eraser file: https://app.eraser.io/workspace/CnNHglQXEFPmr7pfPj0v --->
